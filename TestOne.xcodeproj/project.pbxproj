@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0861441422A028C500711B08 /* NetManger in Resources */ = {isa = PBXBuildFile; fileRef = 0861441222A028C500711B08 /* NetManger */; };
+		0861441522A028C500711B08 /* Tools in Resources */ = {isa = PBXBuildFile; fileRef = 0861441322A028C500711B08 /* Tools */; };
 		08BCD787229D820200916AE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BCD786229D820200916AE8 /* AppDelegate.m */; };
 		08BCD78A229D820200916AE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BCD789229D820200916AE8 /* ViewController.m */; };
 		08BCD78D229D820200916AE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BCD78B229D820200916AE8 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0861441222A028C500711B08 /* NetManger */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NetManger; sourceTree = "<group>"; };
+		0861441322A028C500711B08 /* Tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tools; sourceTree = "<group>"; };
 		08BCD782229D820200916AE8 /* TestOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BCD785229D820200916AE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08BCD786229D820200916AE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 		08BCD784229D820200916AE8 /* TestOne */ = {
 			isa = PBXGroup;
 			children = (
+				0861441222A028C500711B08 /* NetManger */,
+				0861441322A028C500711B08 /* Tools */,
 				08BCD785229D820200916AE8 /* AppDelegate.h */,
 				08BCD786229D820200916AE8 /* AppDelegate.m */,
 				08BCD788229D820200916AE8 /* ViewController.h */,
@@ -236,7 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				08BCD792229D820300916AE8 /* LaunchScreen.storyboard in Resources */,
+				0861441522A028C500711B08 /* Tools in Resources */,
 				08BCD78F229D820300916AE8 /* Assets.xcassets in Resources */,
+				0861441422A028C500711B08 /* NetManger in Resources */,
 				08BCD78D229D820200916AE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +444,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EW7343R7J5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = TestOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +464,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EW7343R7J5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = TestOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
