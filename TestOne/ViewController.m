@@ -20,6 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"用户登入地址:%@",USERLOGINBASE_URL);
+    NSLog(@"%@",self.userNameTextField.text);
 }
 - (IBAction)clickLoginButton:(UIButton *)sender {
     
