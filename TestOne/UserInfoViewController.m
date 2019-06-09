@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.userNameLabel.text = self.userName;
+    NSLog(@"欢迎来到测试");
     // Do any additional setup after loading the view from its nib.
 }
 
