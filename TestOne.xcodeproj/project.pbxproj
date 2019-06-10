@@ -19,6 +19,7 @@
 		0875D4B022AD591E00F5823E /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875D4AD22AD591E00F5823E /* YYClassInfo.m */; };
 		0875D4B422AD5B8500F5823E /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875D4B222AD5B8500F5823E /* UserInfoViewController.m */; };
 		0875D4B522AD5B8500F5823E /* UserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0875D4B322AD5B8500F5823E /* UserInfoViewController.xib */; };
+		08B052CA22AE959800629A90 /* SmileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B052C922AE959800629A90 /* SmileModel.m */; };
 		08BCD787229D820200916AE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BCD786229D820200916AE8 /* AppDelegate.m */; };
 		08BCD78A229D820200916AE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BCD789229D820200916AE8 /* ViewController.m */; };
 		08BCD78D229D820200916AE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BCD78B229D820200916AE8 /* Main.storyboard */; };
@@ -74,6 +75,8 @@
 		0875D4B122AD5B8500F5823E /* UserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
 		0875D4B222AD5B8500F5823E /* UserInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
 		0875D4B322AD5B8500F5823E /* UserInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoViewController.xib; sourceTree = "<group>"; };
+		08B052C822AE959800629A90 /* SmileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmileModel.h; sourceTree = "<group>"; };
+		08B052C922AE959800629A90 /* SmileModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmileModel.m; sourceTree = "<group>"; };
 		08BCD782229D820200916AE8 /* TestOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BCD785229D820200916AE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08BCD786229D820200916AE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 				08BCD794229D820300916AE8 /* main.m */,
 				0875D39C22AD545C00F5823E /* UserModel.h */,
 				0875D39D22AD545C00F5823E /* UserModel.m */,
+				08B052C822AE959800629A90 /* SmileModel.h */,
+				08B052C922AE959800629A90 /* SmileModel.m */,
 				0875D4B122AD5B8500F5823E /* UserInfoViewController.h */,
 				0875D4B222AD5B8500F5823E /* UserInfoViewController.m */,
 				0875D4B322AD5B8500F5823E /* UserInfoViewController.xib */,
@@ -369,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B052CA22AE959800629A90 /* SmileModel.m in Sources */,
 				08BCD78A229D820200916AE8 /* ViewController.m in Sources */,
 				0875D39822AD522E00F5823E /* AFNetworkReachabilityManager.m in Sources */,
 				0875D38322AD516400F5823E /* NetManager.m in Sources */,

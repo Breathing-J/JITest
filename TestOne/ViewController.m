@@ -24,6 +24,14 @@
     NSLog(@"用户登入地址:%@",USERLOGINBASE_URL);
     NSLog(@"%@",self.userNameTextField.text);
     NSLog(@"%@",self.userPasswordTextField.text);
+    
+    [NetManager getSmileWithSort:@"1" andWithTime:@"2" completionHandler:^(SmileModel * _Nonnull model, NSError * _Nonnull error) {
+        if (model.error_code == 0) {
+            NSLog(@"请求成功");
+        }
+    } failure:^(NSError * _Nonnull error) {
+        
+    }];
 }
 - (IBAction)clickLoginButton:(UIButton *)sender {
     [NetManager userLoginWithUserID:self.userNameTextField.text andUserPassword:[self encryptStringWithMD5:self.userPasswordTextField.text] completionHandler:^(UserModel * _Nonnull model, NSError * _Nonnull error) {
